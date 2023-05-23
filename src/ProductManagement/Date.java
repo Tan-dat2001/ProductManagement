@@ -1,6 +1,6 @@
 package ProductManagement;
 
-public class Date {
+public class Date extends java.util.Date {
     private int ngay;
     private int thang;
     private int nam;

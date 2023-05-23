@@ -3,13 +3,22 @@ package ProductManagement;
 public abstract class MatHang {
     private String tenMatHang;
     private float giaNhap;
+//    private String loaiMatHang;
     NhaSanXuat nhaSanXuat;
+
 
     public MatHang(String tenMatHang, float giaNhap, NhaSanXuat nhaSanXuat) {
         this.tenMatHang = tenMatHang;
         this.giaNhap = giaNhap;
         this.nhaSanXuat = nhaSanXuat;
     }
+
+//    public MatHang(String tenMatHang, float giaNhap, String loaiMatHang, NhaSanXuat nhaSanXuat) {
+//        this.tenMatHang = tenMatHang;
+//        this.giaNhap = giaNhap;
+//        this.loaiMatHang = loaiMatHang;
+//        this.nhaSanXuat = nhaSanXuat;
+//    }
 
     public String getTenMatHang() {
         return tenMatHang;
@@ -38,5 +47,8 @@ public abstract class MatHang {
     public abstract double price();
 
 
-//    public abstract String listProduct();
+
+
+
+
 }
