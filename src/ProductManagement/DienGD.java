@@ -14,7 +14,4 @@ public class DienGD extends MatHang{
         return this.getGiaNhap() + this.thue + this.getGiaNhap()*0.2;
     }
 
-
-
-
 }
